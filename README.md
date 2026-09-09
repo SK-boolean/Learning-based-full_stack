@@ -44,12 +44,24 @@ Lucide React: Clean, accessible iconography throughout the application.
 Typography: Specialized accessible fonts loaded via Google Fonts:
 Lexend: Designed to reduce visual stress and improve reading speed.
 Fredoka: Friendly, high-legibility display font for young learners.
+
 ## Backend & APIs
 Node.js & Express: Lightweight backend server for API routing and static asset delivery.
 tsx & esbuild: Fast TypeScript execution in development and single-bundle CommonJS compilation for production (dist/server.cjs).
 Google GenAI SDK (@google/genai): Modern TypeScript SDK configured for server-side Gemini API features.
+
 ## Authentication & Persistence
 Firebase (v12):
 Firebase Authentication: User accounts, credential management, and role-based access.
 Cloud Firestore: Cloud database storage for profiles, learning progress, and records.
 Local Storage Cache: Fallback offline persistence for rapid resume and demo sessions.
+
+## Browser-Native APIs
+Web Speech API (SpeechSynthesis): Text-to-Speech (TTS) reading companion for learners.
+Web Audio API: Real-time sound effects and pure sinusoidal calm breathing frequencies
+
+## 🚧 Status
+
+This project is actively in development.
+
+
