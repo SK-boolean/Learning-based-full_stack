@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Lexend', sans-serif;
+    background-color: #F9F9F5;
+    color: #1E293B;
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+/* Dyslexia Mode Styling */
+.mode-dyslexia {
+  font-family: 'Lexend', 'Comic Sans MS', sans-serif !important;
+  letter-spacing: 0.06em !important;
+  word-spacing: 0.12em !important;
+  line-height: 1.8 !important;
+  background-color: #FEFCE8 !important; /* Gentle reading tint overlay */
+}
+
+.mode-dyslexia p, 
+.mode-dyslexia span, 
+.mode-dyslexia h1, 
+.mode-dyslexia h2, 
+.mode-dyslexia h3 {
+  font-weight: 600 !important;
+}
+
+/* Cerebral Palsy Mode Styling */
+.mode-cerebral-palsy {
+  touch-action: manipulation;
+}
+
+.mode-cerebral-palsy button {
+  min-height: 64px !important;
+  font-size: 1.15rem !important;
+}
+
+/* Autism Low Sensory Mode Styling */
+.mode-autism {
+  background-color: #F1F5F9 !important;
+}
+
+.mode-autism * {
+  transition-duration: 0.4s !important;
+}

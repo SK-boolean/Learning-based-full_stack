@@ -1,0 +1,11 @@
+{
+  "name": "LearnBuddy",
+  "description": "Gamified adaptive learning and vocational training platform for neurodivergent learners.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
